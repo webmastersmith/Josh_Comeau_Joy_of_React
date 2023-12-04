@@ -1,0 +1,17 @@
+# wildcards: * zero or more. ? one char.
+# **/build any directory with build dir inside
+# build/** everything inside build dir.
+
+# NodeJS
+node_modules/
+package-lock.json
+.env*
+build/
+temp*
+avoid*
+
+# Next.js build output
+.next
+out
+.vscode*
+.pnpm.*
